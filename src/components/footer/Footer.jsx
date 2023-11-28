@@ -5,6 +5,7 @@ import styles from "./footer.module.css";
 function Footer() {
   return (
     <div className={styles.container}>
+      {/*Hello*/}
       <div>@all rights reserved</div>
       <div className={styles.socialNetworks}>
         <Image className={styles.icon} src="/1.png" width={15} height={15} alt="facebook"/>
